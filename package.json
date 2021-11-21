@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Let 's go to the cinema",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "cucumber": "cucumber-js"
+  },
+  "author": "ivan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^11.0.0"
+  },
+  "devDependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "eslint": "^8.2.0"
+  }
+}
